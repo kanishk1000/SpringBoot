@@ -1,0 +1,12 @@
+body{
+    background-color: cyan;
+}
+p{
+    color:brown;
+    font-family: monospace;
+    font-size: 18px;
+}
+a{
+    color: chocolate;
+    text-decoration: none;
+}

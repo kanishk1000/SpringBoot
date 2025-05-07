@@ -1,0 +1,47 @@
+*{
+    margin: 0px auto;
+    text-align: center;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
+}
+main{
+    width:95%;
+    background-color: white;
+}
+header{
+    background-color: crimson;
+    height: 100px;
+    color: white;
+}
+header h1{
+    padding: 30px 50px;
+}
+nav{
+    background-color: aqua;
+    height: 50px;
+}
+section{
+  display: flex;
+}
+#lsidebar{
+    width: 15%;
+    height: 450px;
+    background-color: cornflowerblue;
+}
+#rsidebar{
+    width: 15%;
+    height: 450px;
+    background-color: cornflowerblue;
+}
+article{
+    width: 70%;
+    height: 450px;
+    background-color:darkorange
+}
+footer{
+    background-color: crimson;
+    height: 30px;
+    color: white;
+}

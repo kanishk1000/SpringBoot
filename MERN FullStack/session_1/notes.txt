@@ -1,0 +1,95 @@
+-> Full Stack 
+    Frontend + backend + database + deployment = full stack 
+      -> Frontend (UI)
+         Html , CSS , JavaScript , Bootstrap , React , Angular , Vue Js 
+      -> Backend 
+         Node Js , Java , .net , python , php etc 
+      -> Database 
+         Sql , MsSql , MongoDB (NoSQL)
+      -> Deployment (Develops)
+         GIT , CI/CD Pipeline , Docker and Kubernatives 
+           Aws , Azure etc 
+    -> Html :- Hyper text markup language 
+      -> latest version : HTML 5 
+      -> extension is .html 
+      -> It is not a case senstive 
+      -> We write code in tags 
+        < > 
+      -> Every tag must be closed 
+      <html> </html>
+       <br />
+       syntax :
+         <!Doctype html>
+         <html>
+            <head>
+               we define the title , meta tags , styles , scripts
+            </head>
+            <body>
+              here we create whole document or web page 
+            </body>
+         </html>
+    -> Comments :- to describe a code (hide)
+      <!--   --> 
+-> IDE / Editor 
+   VScode :- Visual Studio Code  
+     https://code.visualstudio.com/download
+-> extension (live server)
+   -> head section 
+      -> title tag :- to display title in title bar (SEO)
+      -> meta tags :- seo purpose 
+      -> styles : css 
+      -> scripts : javascript 
+   -> Body section 
+      -> It is a main section where the whole webpage is created 
+         -> h1 to h6 (heading tags)
+           h1 : largest 
+           h6: smallest 
+         -> Paragraph <p> </p>
+         -> <hr /> (horizontal line )
+         -> <br/ > (new line)
+         -> Insert image 
+            <img src="path" alt="description" />
+        -> List : collection of items 
+           -> ordered list <ol>
+               1 2 3 (default)
+               a b c 
+               A B C 
+               i ii iii 
+               I II III 
+           -> unordered list <ul>
+             disc (default)
+             square 
+             circle 
+             -> to add item in a list 
+               <li> </li>
+        -> Hyperlink :- It is a process to navigate one page into another.
+          <a> anchor tag 
+            eg:
+            <a href="first.html"> text </a>
+        -> table :- collection of rows and column 
+           <table> </table>
+             row : <tr> </tr>
+             column : <td> </td> or <th> </th>
+        -> Stylesheet :- used for look and feel of the application 
+            -> Types of styles 
+               -> Inline :- call in any tag with style attribute 
+                  eg:
+                  <h2 style="color:'red' ; border:2px solid green"> --- </h2>
+               -> Internal (Embedded) :- we define in head section in style tag 
+               -> External (CSS) :- cascading style sheet . first we create .css file and link that file in our web page 
+                  eg: 
+                  style.css 
+                    h1{
+
+                    }
+                  home.html 
+                  <html>
+                     <head>
+                       <link rel="stylesheet" href="./style.css" />
+                     </head>
+                     <body>
+                     --- 
+                     </body>
+                  </html>
+            -> Way of preference 
+               inline -> internal -> external 

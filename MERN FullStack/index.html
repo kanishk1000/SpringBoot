@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title> Dom Manupulation</title>
+
+    </head>
+
+    <body>
+
+        <h2> Dom1</h2>
+
+        <p id="target"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quo? Corrupti eius debitis adipisci, quod natus perspiciatis. Vero veritatis odio fugiat placeat, nemo magni, quo libero consequuntur beatae numquam ad!</p>
+
+        <button id="btn"> Click Here</button>
+
+        <script>
+
+            //get para and button 
+
+            let btn=document.getElementById("btn");
+
+            let para=document.getElementById("target");
+
+            //apply click event in btn 
+
+            btn.addEventListener("click",function(){
+
+                let data=para.innerHTML;
+
+                alert(data)
+
+                //set data of para 
+
+                para.innerHTML="Hello guys ! Content is updated !"
+
+                //set styles at runtime 
+
+                para.style.color="red"
+
+            })
+
+        </script>
+
+    </body>
+
+</html>
